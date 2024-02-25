@@ -1,0 +1,51 @@
+FREEMAN'S DEGREE CENTRALITY MEASURES
+--------------------------------------------------------------------------------
+
+Diagonal valid?                         NO
+Model:                                  ASYMMETRIC
+Input dataset:                          categoryXcategory 
+
+                              1            2            3            4
+                      OutDegree     InDegree    NrmOutDeg     NrmInDeg
+                   ------------ ------------ ------------ ------------
+    7       Games        36.000       36.000       66.667       66.667
+    6        Food        34.000       34.000       62.963       62.963
+    9  Publishing        32.000       32.000       59.259       59.259
+    4     Fashion        30.000       30.000       55.556       55.556
+    8       Music        28.000       28.000       51.852       51.852
+    2      Comics        27.000       27.000       50.000       50.000
+    3      Design        25.000       25.000       46.296       46.296
+   10  Technology        25.000       25.000       46.296       46.296
+    5   FilmVideo        18.000       18.000       33.333       33.333
+    1         Art        17.000       17.000       31.481       31.481
+
+
+DESCRIPTIVE STATISTICS
+
+                            1            2            3            4
+                    OutDegree     InDegree    NrmOutDeg     NrmInDeg
+                 ------------ ------------ ------------ ------------
+    1      Mean        27.200       27.200       50.370       50.370
+    2   Std Dev         5.946        5.946       11.012       11.012
+    3       Sum       272.000      272.000      503.704      503.704
+    4  Variance        35.360       35.360      121.262      121.262
+    5       SSQ      7752.000     7752.000    26584.361    26584.361
+    6     MCSSQ       353.600      353.600     1212.620     1212.620
+    7  Euc Norm        88.045       88.045      163.047      163.047
+    8   Minimum        17.000       17.000       31.481       31.481
+    9   Maximum        36.000       36.000       66.667       66.667
+   10  N of Obs        10.000       10.000       10.000       10.000
+
+Network Centralization (Outdegree) = 18.107%
+Network Centralization (Indegree) = 18.107%
+
+Note: For valued data, the normalized centrality may be larger than 100.
+      Also, the centralization statistic is divided by the maximum value in the input dataset.
+
+Actor-by-centrality matrix saved as dataset FreemanDegree
+
+----------------------------------------
+Running time:  00.00.01
+Output generated:  04 ago 20 12.50.32
+UCINET 6.711 Copyright (c) 2002-19 Analytic Technologies
+
